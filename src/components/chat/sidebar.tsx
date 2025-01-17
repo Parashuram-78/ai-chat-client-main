@@ -101,7 +101,7 @@ export function ChatSidebar({ loading, setLoading, setStreamResponse, streamResp
 		<div className={cn("h-screen", streamResponse ? "hidden md:block" : "")}>
 			<header className="h-14 flex justify-between bg-secondary items-center px-5 border-r border-background">
 				<Link href="/profile">
-					<Image ssrc={'../../public/icon.jpg'} alt="logo" width={40} height={40} className="rounded-full" />
+					<Image src={'../../public/icon.jpg'} alt="logo" width={40} height={40} className="rounded-full" />
 				</Link>
 
 				<ThemeToggle />
