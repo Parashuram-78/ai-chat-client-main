@@ -13,7 +13,6 @@ import { toast } from "@/hooks/use-toast";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Image from "next/image";
-import { logo } from "@/public";
 import { ThemeToggle } from "../theme-toggle";
 import Link from "next/link";
 
@@ -102,7 +101,7 @@ export function ChatSidebar({ loading, setLoading, setStreamResponse, streamResp
 		<div className={cn("h-screen", streamResponse ? "hidden md:block" : "")}>
 			<header className="h-14 flex justify-between bg-secondary items-center px-5 border-r border-background">
 				<Link href="/profile">
-					<Image src={logo} alt="logo" width={40} height={40} className="rounded-full" />
+					<Image ssrc={'../../public/icon.jpg'} alt="logo" width={40} height={40} className="rounded-full" />
 				</Link>
 
 				<ThemeToggle />
