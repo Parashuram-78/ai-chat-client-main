@@ -85,7 +85,7 @@ Follow these simple steps to set up and run the project:
    ```bash
    npm install
 4. **Run the project**
-```bash
+   ```bash
    npm run dev
 
 
