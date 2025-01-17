@@ -80,12 +80,11 @@ Follow these simple steps to set up and run the project:
    git clone <repo-url>
    cd <project-directory>
 
-## 💻 How to Run the Project
 
-1. **Install Dependencies:**
+3. **Install Dependencies:**
    ```bash
    npm install
-2. **Run the project**
+4. **Run the project**
 ```bash
    npm run dev
 
